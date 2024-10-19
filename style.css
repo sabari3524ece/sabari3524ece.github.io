@@ -1,0 +1,261 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-bg {
+  width: 100%;
+  height: 500px;
+  background-image: url(/img//HOME.IMG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bk-title {
+  background-color: black;
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sub-title {
+  margin: 0px 25%;
+  width: 50%;
+  height: 171px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.org-btn {
+  padding: 15px;
+  font-size: 24px;
+  border-radius: 50px;
+  background-color: orangered;
+  color: white;
+  border: none;
+  text-decoration: none;
+}
+
+.org-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.org-btn:hover {
+  cursor: pointer;
+}
+
+.sign-in {
+  width: 100%;
+  height: 740px;
+  display: flex;
+}
+
+.sign-in-logo {
+  width: 50%;
+  height: 740px;
+  background-image: url(/img/bg1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sign-in-form {
+  width: 50%;
+  height: 740px;
+  margin-top: 100px;
+}
+
+.error {
+  text-align: center;
+  width: 50%;
+}
+
+.sign-in-form h2 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.sign-in-form form input,
+label {
+  margin-left: 20%;
+}
+
+.sign-in-form form label {
+  font-size: 36px;
+  color: rgb(80, 80, 80);
+}
+
+.sign-in-form form input {
+  width: 55%;
+  padding: 10px;
+  margin-bottom: 25px;
+  background-color: rgb(223, 223, 223);
+  border: none;
+}
+
+.sign-in-form form input:hover {
+  cursor: pointer;
+}
+
+.sign-in-form form h3 {
+  margin-left: 58%;
+  font-size: 20px;
+}
+
+.sign-in-form h3 a {
+  color: black;
+  cursor: pointer;
+}
+
+.sign-in-form form h3:hover {
+  cursor: pointer;
+}
+
+.sign-in-form form button {
+  margin-top: 60px;
+  margin-left: 35%;
+}
+
+.Forgot-Password-form h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 150px;
+  margin-bottom: 80px;
+  color: rgb(200, 0, 0);
+}
+
+.Forgot-Password-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Forgot-Password-form form input {
+  width: 40%;
+  text-align: center;
+  border-radius: 50px;
+  padding: 16px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  font-size: 22px;
+  background-color: rgb(223, 223, 223);
+  border: none;
+  color: #000;
+}
+
+.enterance-bg-img {
+  background-image: url(/img/home-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.level-selector {
+  width: 100%;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.levels {
+  background-color: rgb(197, 197, 197);
+  width: 650px;
+  height: 100px;
+  display: flex;
+  border-radius: 40px;
+}
+
+.levels-content {
+  width: 85%;
+  text-align: center;
+}
+
+.levels-button button {
+  padding: 15px;
+  margin-top: 25px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(0, 81, 255, 0.515);
+  cursor: pointer;
+}
+
+.levels-button button:hover {
+  background-color: rgba(0, 0, 0, 0.505);
+  color: white;
+}
+
+.levels-button button a {
+  text-decoration: none;
+  color: white;
+}
+
+.levels-content h2 {
+  font-size: 26px;
+}
+
+.levels-content p {
+  font-size: 20px;
+}
+
+.course-body {
+  background-image: url(/img/bg5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.course-page h1 {
+  color: rgb(255, 255, 255);
+  padding-left: 100px;
+  padding-top: 50px;
+  font-size: 40px;
+}
+
+.course-container {
+  background-color: #00000086;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0px 50px;
+}
+
+.course {
+  background-color: grey;
+  height: 300px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  text-wrap: wrap;
+  text-align: center;
+}
+
+.course:hover {
+  background-color: rgb(0, 83, 128);
+}
+.course h2 {
+  padding: 0px;
+  margin: 10px;
+}
+.course a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: large;
+  cursor: pointer;
+  border: 3px solid black;
+  padding: 3px;
+  border-radius: 50px;
+  background-color: #000;
+  cursor: pointer;
+}
+
+.course a:hover {
+  background-color: rgb(39, 39, 39);
+}
